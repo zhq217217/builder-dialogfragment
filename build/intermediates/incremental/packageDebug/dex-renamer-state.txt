@@ -1,0 +1,7 @@
+#Wed Jan 03 11:18:15 CST 2018
+base.0=C\:\\Users\\Administrator\\AndroidStudioProjects\\demo01\\dialogfragmentdemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_96facbc030355ce289949ff5f8484d35a4eae2dc
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Administrator\\AndroidStudioProjects\\demo01\\dialogfragmentdemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9da55822693145873a38b94354976716f41dcf54\\classes.dex
+base.1=C\:\\Users\\Administrator\\AndroidStudioProjects\\demo01\\dialogfragmentdemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9da55822693145873a38b94354976716f41dcf54
+file.0=C\:\\Users\\Administrator\\AndroidStudioProjects\\demo01\\dialogfragmentdemo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_96facbc030355ce289949ff5f8484d35a4eae2dc\\classes.dex
