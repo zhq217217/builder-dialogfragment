@@ -34,7 +34,7 @@ public class CustomDialogFragment extends DialogFragment {
     public static final String DIALOG_ANIMATION = "animation";
 
 
-    public static CustomDialogFragment getInstance(int resId, int styleId, int width, int height, int gravity,
+    private static CustomDialogFragment getInstance(int resId, int styleId, int width, int height, int gravity,
                                                    float dimamount, boolean notitle, boolean stateBarTranslate, boolean cancleAble,
                                                    boolean canceledOnTouchOutside, int animationId, Builder.OnRootViewReadyListener listener) {
         CustomDialogFragment fragment = new CustomDialogFragment();

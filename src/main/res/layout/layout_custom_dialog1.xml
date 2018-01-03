@@ -39,6 +39,4 @@
             android:textColor="@color/colorPrimaryDark"
             android:textSize="18sp" />
     </LinearLayout>
-
-
 </FrameLayout>

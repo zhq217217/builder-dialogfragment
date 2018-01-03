@@ -3,12 +3,16 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="@color/colorAccent"
-        android:text="想干什么就干什么"
-        android:textColor="@color/colorPrimary"
-        android:textSize="23sp"
-        android:gravity="center"/>
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/colorAccent"
+            android:text="想干什么就干什么"
+            android:textColor="@color/colorPrimary"
+            android:textSize="23sp"
+            android:gravity="center"/>
+    </FrameLayout>
 </LinearLayout>

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 03 11:20:01 CST 2018
+#Wed Jan 03 12:04:44 CST 2018
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\Administrator\\AndroidStudioProjects\\demo01\\dialogfragmentdemo\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_switch_track.xml
 118.set=ANDROID_RESOURCE

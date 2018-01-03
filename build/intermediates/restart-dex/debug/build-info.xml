@@ -5,26 +5,23 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="5876132046881"
+    timestamp="8648165212629"
     token="8606123241572565670"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="273" />
+        duration="210" />
     <task
         name="instant-run-dex"
-        duration="18" />
+        duration="9" />
     <task
         name="instant-run-transform"
-        duration="49" />
+        duration="28" />
     <task
         name="verifier"
-        duration="5" />
+        duration="3" />
 
-    <artifact
-        location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
     <artifact
         location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\reload-dex\debug\classes.dex"
         type="RELOAD_DEX" />
@@ -37,11 +34,92 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="5876132046881"
+        timestamp="7712221955825"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="7923356923030"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\builds\debug\7923356923030\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="8043441508119"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\builds\debug\8043441508119\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="8126462172858"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\builds\debug\8126462172858\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="8184605563346"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\builds\debug\8184605563346\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="8233144581659"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\builds\debug\8233144581659\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="8266832447403"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\builds\debug\8266832447403\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="8378527981934"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\builds\debug\8378527981934\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="8421127433492"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\builds\debug\8421127433492\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="8496478405300"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\builds\debug\8496478405300\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="8521363934653"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\builds\debug\8521363934653\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="8559239875705"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
+    </build>
+    <build
+        timestamp="8648165212629"
+        verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\Administrator\AndroidStudioProjects\demo01\dialogfragmentdemo\build\intermediates\reload-dex\debug\classes.dex"
             type="RELOAD_DEX" />

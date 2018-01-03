@@ -248,7 +248,13 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void customViewAnyPositionDialog(View view) {
-        CustomViewAnyPositionDialog.getInstance().show(getFragmentManager(), "");
+//        CustomViewAnyPositionDialog.getInstance().show(getFragmentManager(), "");
+        CustomDialogFragment.Builder.getInstance()
+                .setResId(R.layout.layout_custom_dialog1)
+                .setStyleId(R.style.MyDialog1)
+                .setStateBarTranslate(false)
+                .setGravity(Gravity.LEFT | Gravity.TOP)
+                .show(getFragmentManager());
     }
 
     public static class CustomViewAnyPositionDialog extends DialogFragment {
@@ -262,10 +268,8 @@ public class MainActivity extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             //1 通过样式定义,DialogFragment.STYLE_NORMAL这个很关键的
             setStyle(DialogFragment.STYLE_NORMAL, R.style.MyDialog1);
-
             //2代码设置 无标题 无边框  这个就很坑爹，这么设置很多系统效果就都没有了
             //setStyle(DialogFragment.STYLE_NO_TITLE|DialogFragment.STYLE_NO_FRAME,0);
-
         }
 
         @Nullable
@@ -312,7 +316,13 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void customAnimationDialog(View view) {
-        CustomAnimationDialg.getInstance().show(getFragmentManager(), "");
+//        CustomAnimationDialg.getInstance().show(getFragmentManager(), "");
+        CustomDialogFragment.Builder.getInstance()
+                .setResId(R.layout.layout_custom_dialog2)
+                .setStyleId(R.style.CustomDatePickerDialog)
+                .setWidth(getWindow().getWindowManager().getDefaultDisplay().getWidth())
+                .setGravity(Gravity.BOTTOM)
+                .show(getFragmentManager());
     }
 
     public static class CustomAnimationDialg extends DialogFragment {
